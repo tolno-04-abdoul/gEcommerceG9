@@ -1,0 +1,253 @@
+
+Procédure PL/SQL terminée avec succès.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Validation effectuée.
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Validation effectuée.
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Ã‰lectronique', 'Appareils Ã©lectroniques et accessoires', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'VÃªtements', 'Mode homme, femme et enfant', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Alimentation', 'Produits alimentaires et boissons', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Maison et Jardin', 'Mobilier et articles de maison', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Informatique', 'Ordinateurs, composants et logiciels', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Sport et Loisirs', 'Ã‰quipements sportifs et de loisirs', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'BeautÃ© et SantÃ©', 'CosmÃ©tiques et produits de santÃ©', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO CATEGORIES VALUES (SEQ_CATEGORIES.NEXTVAL, 'Livres et MÃ©dias', 'Livres, films et musique', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'TechSupply SA', 'contact@techsupply.com', '+224 620 111 001', 'Zone Industrielle, Conakry', 'GuinÃ©e', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'AfriMode SARL', 'info@afrimode.com', '+224 620 222 002', 'Madina, Conakry', 'GuinÃ©e', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'Dakar Import Export', 'dakar@importexport.sn', '+221 77 333 0003', '23 Rue du Commerce, Dakar', 'SÃ©nÃ©gal', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'GlobalTech CI', 'globaltech@ci.com', '+225 07 444 0004', 'Plateau, Abidjan', 'CÃ´te d''Ivoire', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'EuroDistrib France', 'eurodistrib@france.fr', '+33 1 55 666 005', '12 Av. de la RÃ©publique, Paris', 'France', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO FOURNISSEURS VALUES (SEQ_FOURNISSEURS.NEXTVAL, 'ChinaSource Ltd', 'source@chinasource.cn', '+86 10 777 0006', 'Shenzhen Industrial Park', 'Chine', SYSDATE)
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+
+
+INSERT INTO PRODUITS VALUES (SEQ_PRODUITS.NEXTVAL, 'Smartphone Samsung A54', '6.4" 128GB 5G', 750000, 50, 1, 6, SYSDATE, 'O')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_PRODUITS)
+
+
+INSERT INTO PRODUITS VALUES (SEQ_PRODUITS.NEXTVAL, 'Laptop HP 15s', 'Core i5 8GB 512GB SSD', 2500000, 20, 5, 5, SYSDATE, 'O')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_PRODUITS)
+
+
+INSERT INTO CLIENTS VALUES (SEQ_CLIENTS.NEXTVAL, 'Diallo', 'Mamadou', 'mamadou.diallo@gmail.com', '+224 621 001 001', 'KipÃ©, Ratoma', 'Conakry', 'GuinÃ©e', SYSDATE, 'O')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CLIENTS)
+
+
+INSERT INTO COMMANDES VALUES (SEQ_COMMANDES.NEXTVAL, 1, SYSDATE-30, 'LIVREE', 0, 'KipÃ©, Ratoma, Conakry')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_COMMANDES)
+
+
+
+31 lignes mises à jour.
+
+INSERT INTO PAIEMENTS VALUES (SEQ_PAIEMENTS.NEXTVAL, 1000, SYSDATE-29, 1110000, 'MOBILE_MONEY', 'VALIDE', 'PAY-MM-202401-001')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_PAIEMENTS)
+
+
+INSERT INTO LIVRAISONS VALUES (SEQ_LIVRAISONS.NEXTVAL, 1000, SYSDATE-28, SYSDATE-25, 'Chronopost GuinÃ©e', 'CHRON-GN-00001', 'LIVRE')
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_LIVRAISONS)
+
+
+
+Validation effectuée.
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CATEGORIES)
+ORA-06512: à ligne 3
+
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_FOURNISSEURS)
+ORA-06512: à ligne 3
+
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_PRODUITS)
+ORA-06512: à ligne 3
+
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-00001: violation de contrainte unique (ECOM.PK_CLIENTS)
+ORA-06512: à ligne 3
+
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (ECOM.FK_CMD_CLIENT) - clé
+parent introuvable
+ORA-06512: à ligne 3
+
+
+	INSERT INTO LIGNES_COMMANDE VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, TRUNC(DBMS_RANDOM.VALUE(1000,1201)), TRUNC(DBMS_RANDOM.VALUE(1,71)), TRUNC(DBMS_RANDOM.VALUE(1,10)), ROUND(DBMS_RANDOM.VALUE(500,500000),-2));
+                    *
+ERREUR à la ligne 3 :
+ORA-06550: Ligne 3, colonne 21 :
+PL/SQL: ORA-00947: nombre de valeurs insuffisant
+ORA-06550: Ligne 3, colonne 9 :
+PL/SQL: SQL Statement ignored
+
+
+>> Montants totaux mis a jour
+
+Procédure PL/SQL terminée avec succès.
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (ECOM.FK_PAIE_CMD) - clé parent
+introuvable
+ORA-06512: à ligne 3
+
+
+
+Procédure PL/SQL terminée avec succès.
+
+^C

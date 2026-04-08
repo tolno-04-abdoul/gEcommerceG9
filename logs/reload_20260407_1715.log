@@ -1,0 +1,13 @@
+ERROR:
+ORA-12154: TNS : l'identificateur de connexion indiqué n'a pas pu être résolu
+
+
+ERROR:
+ORA-12560: TNS : erreur d'adaptateur de protocole
+
+
+ERROR:
+ORA-12560: TNS : erreur d'adaptateur de protocole
+
+
+SP2-0157: impossible de se CONNECTER à ORACLE après 3 essais, sortie de SQL*Plus

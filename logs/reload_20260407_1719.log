@@ -1,0 +1,190 @@
+
+Procédure PL/SQL terminée avec succès.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Validation effectuée.
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Validation effectuée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne mise à jour.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 1 categories aleatoires ajoutees
+
+Procédure PL/SQL terminée avec succès.
+
+>> 1 fournisseurs aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> 1 produits aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> 1 clients aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (ECOM.FK_CMD_CLIENT) - clé
+parent introuvable
+ORA-06512: à ligne 3
+
+
+	INSERT INTO LIGNES_COMMANDE VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, TRUNC(DBMS_RANDOM.VALUE(1000,1201)), TRUNC(DBMS_RANDOM.VALUE(1,71)), TRUNC(DBMS_RANDOM.VALUE(1,10)), ROUND(DBMS_RANDOM.VALUE(500,500000),-2));
+                    *
+ERREUR à la ligne 3 :
+ORA-06550: Ligne 3, colonne 21 :
+PL/SQL: ORA-00947: nombre de valeurs insuffisant
+ORA-06550: Ligne 3, colonne 9 :
+PL/SQL: SQL Statement ignored
+
+
+>> Montants totaux mis a jour
+
+Procédure PL/SQL terminée avec succès.
+
+BEGIN
+*
+ERREUR à la ligne 1 :
+ORA-02291: violation de contrainte d'intégrité (ECOM.FK_PAIE_CMD) - clé parent
+introuvable
+ORA-06512: à ligne 3
+
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Procédure PL/SQL terminée avec succès.
+
+
+Procédure PL/SQL terminée avec succès.
+
+============================================================
+GENERATION ALEATOIRE TERMINEE !
+============================================================
+^C

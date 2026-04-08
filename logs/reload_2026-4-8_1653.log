@@ -1,0 +1,57 @@
+============================================================
+Vidage complet de toutes les tables
+============================================================
+>> Desactivation des contraintes...
+
+Procédure PL/SQL terminée avec succès.
+
+>> Contraintes desactivees.
+>> Vidage des tables...
+
+Table tronquée.
+
+>> LOG_COMMANDES videe.
+
+Table tronquée.
+
+>> LIVRAISONS videe.
+
+Table tronquée.
+
+>> PAIEMENTS videe.
+
+Table tronquée.
+
+>> LIGNES_COMMANDE videe.
+
+Table tronquée.
+
+>> COMMANDES videe.
+
+Table tronquée.
+
+>> PRODUITS videe.
+
+Table tronquée.
+
+>> CLIENTS videe.
+
+Table tronquée.
+
+>> FOURNISSEURS videe.
+
+Table tronquée.
+
+>> CATEGORIES videe.
+>> Reactivation des contraintes...
+
+Procédure PL/SQL terminée avec succès.
+
+>> Contraintes reactivees.
+
+Validation effectuée.
+
+============================================================
+Vidage termine avec succes !
+============================================================
+^C

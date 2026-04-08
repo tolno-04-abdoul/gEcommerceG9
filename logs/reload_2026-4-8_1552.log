@@ -1,0 +1,590 @@
+============================================================
+Vidage complet de toutes les tables
+============================================================
+>> Desactivation des contraintes...
+
+Procédure PL/SQL terminée avec succès.
+
+>> Contraintes desactivees.
+>> Vidage des tables...
+
+Table tronquée.
+
+>> LOG_COMMANDES videe.
+
+Table tronquée.
+
+>> LIVRAISONS videe.
+
+Table tronquée.
+
+>> PAIEMENTS videe.
+
+Table tronquée.
+
+>> LIGNES_COMMANDE videe.
+
+Table tronquée.
+
+>> COMMANDES videe.
+
+Table tronquée.
+
+>> PRODUITS videe.
+
+Table tronquée.
+
+>> CLIENTS videe.
+
+Table tronquée.
+
+>> FOURNISSEURS videe.
+
+Table tronquée.
+
+>> CATEGORIES videe.
+>> Reactivation des contraintes...
+
+Procédure PL/SQL terminée avec succès.
+
+>> Contraintes reactivees.
+
+Validation effectuée.
+
+============================================================
+Vidage termine avec succes !
+============================================================
+
+Procédure PL/SQL terminée avec succès.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Validation effectuée.
+
+============================================================
+Insertion des donnees de base
+============================================================
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 8 categories inserees.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 6 fournisseurs inseres.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 20 produits inseres.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 15 clients inseres.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 12 commandes inserees.
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1000, 1, 1, 750000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1000, 2, 2, 180000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1001, 3, 1, 2500000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1001, 4, 1, 65000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1002, 5, 1, 120000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1002, 6, 3, 25000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1003, 7, 2, 75000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1003, 8, 1, 320000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1004, 10, 2, 185000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1004, 11, 1, 45000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1005, 19, 1, 890000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1005, 20, 2, 35000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1006, 16, 3, 28000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1007, 14, 2, 95000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1008, 9, 1, 85000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1009, 17, 1, 220000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+VALUES (SEQ_LIGNES_COMMANDE.NEXTVAL, 1010, 18, 5, 18000)
+        *
+ERREUR à la ligne 2 :
+ORA-04091: la table ECOM.LIGNES_COMMANDE est en mutation ; le déclencheur ou la
+fonction ne peut la voir
+ORA-06512: à "ECOM.TRG_MAJ_MONTANT_COMMANDE", ligne 3
+ORA-04088: erreur lors d'exécution du déclencheur
+'ECOM.TRG_MAJ_MONTANT_COMMANDE'
+
+
+
+Validation effectuée.
+
+>> 17 lignes de commande inserees.
+
+12 lignes mises à jour.
+
+
+Validation effectuée.
+
+>> Montants totaux mis a jour.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 6 paiements inseres.
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+>> 3 livraisons inserees.
+============================================================
+Insertion des donnees de base terminee !
+============================================================
+SP2-0042: commande inconnue "rxit" - reste de la ligne ignoré.
+============================================================
+Generation de donnees aleatoires
+============================================================
+>> Desactivation des triggers...
+
+Procédure PL/SQL terminée avec succès.
+
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des categories...
+>> 1 categories aleatoires ajoutees
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des fournisseurs...
+>> 1 fournisseurs aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des produits...
+>> 1 produits aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des clients...
+>> 1 clients aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des commandes...
+>> 1 commandes aleatoires ajoutees
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des lignes de commande...
+>> 500 lignes de commande aleatoires ajoutees
+
+Procédure PL/SQL terminée avec succès.
+
+>> Mise a jour des montants totaux...
+>> Montants totaux mis a jour
+
+Procédure PL/SQL terminée avec succès.
+
+>> Generation des paiements...
+>> 150 paiements aleatoires ajoutes
+
+Procédure PL/SQL terminée avec succès.
+
+>> Reactivation des triggers...
+
+Procédure PL/SQL terminée avec succès.
+
+
+Procédure PL/SQL terminée avec succès.
+
+>> Rafraichissement des vues materialisees...
+>> Vues materialisees rafraichies
+
+Procédure PL/SQL terminée avec succès.
+
+============================================================
+GENERATION ALEATOIRE TERMINEE !
+============================================================
+RafraÃ®chissement de MV_CA_PAR_MOIS...
+
+Procédure PL/SQL terminée avec succès.
+
+RafraÃ®chissement de MV_TOP_PRODUITS...
+
+Procédure PL/SQL terminée avec succès.
+
+RafraÃ®chissement de MV_STATS_CLIENTS...
+
+Procédure PL/SQL terminée avec succès.
+
+Toutes les vues matÃ©rialisÃ©es ont Ã©tÃ© rafraÃ®chies.
